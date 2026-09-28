@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amarnath — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Amarnath — work, notes, and ways to get in touch."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#top">Amarnath</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="wrap hero-inner">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Hi, I’m Amarnath.</h1>
+          <p class="lede">
+            I build things, learn in public, and care about work that feels
+            clear, useful, and a little bit personal.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#work">See selected work</a>
+            <a class="button button-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="wrap split">
+          <h2>About</h2>
+          <div class="prose">
+            <p>
+              Replace this with a short story about you: where you are, what you
+              like working on, and what you’re looking for next. Two or three
+              sentences is plenty.
+            </p>
+            <p>
+              Right now this site is a simple home for that story — bio, a few
+              projects, and a way for people to reach you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section-alt">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Selected work</h2>
+            <p>A few things I’ve made. Swap these cards with your real projects.</p>
+          </div>
+          <ul class="project-grid">
+            <li class="project-card">
+              <p class="project-meta">Project · 2026</p>
+              <h3>Project one</h3>
+              <p>
+                One-line description of what it is and why it matters. Link it
+                when you have a live URL or repo.
+              </p>
+              <a href="#" aria-disabled="true">Coming soon</a>
+            </li>
+            <li class="project-card">
+              <p class="project-meta">Project · 2025</p>
+              <h3>Project two</h3>
+              <p>
+                Another piece of work — a tool, a write-up, or something you
+                shipped with a team.
+              </p>
+              <a href="#" aria-disabled="true">Coming soon</a>
+            </li>
+            <li class="project-card">
+              <p class="project-meta">Note · ongoing</p>
+              <h3>Project three</h3>
+              <p>
+                Keep it human: what you learned, who it was for, or what you’d
+                do differently next time.
+              </p>
+              <a href="#" aria-disabled="true">Coming soon</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="wrap split">
+          <h2>Skills</h2>
+          <ul class="skill-list">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Writing &amp; documentation</li>
+            <li>Product thinking</li>
+            <li>Collaboration</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="wrap contact">
+          <h2>Let’s talk</h2>
+          <p>
+            Open to conversations about work, collaboration, or just saying
+            hello.
+          </p>
+          <ul class="contact-links">
+            <li>
+              <a href="mailto:you@example.com">you@example.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/" rel="noreferrer">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" rel="noreferrer">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© <span id="year"></span> Amarnath</p>
+        <p>Built as a simple personal site.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
